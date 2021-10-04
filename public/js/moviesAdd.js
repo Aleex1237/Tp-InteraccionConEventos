@@ -43,6 +43,8 @@ window.onload = function () {
         window.alert("SECRETO MAGICO".toUpperCase());
         break;
       default:
+        estadoSecreto = 0;
+        console.log(estadoSecreto);
         break;
     }
   });
